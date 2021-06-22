@@ -43,7 +43,6 @@ class FollowersFragment : Fragment(R.layout.fragment_follow) {
                 }
             })
         }
-
     }
 
     override fun onDestroyView() {

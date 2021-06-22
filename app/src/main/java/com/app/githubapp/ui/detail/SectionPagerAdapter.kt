@@ -16,6 +16,7 @@ class SectionPagerAdapter(private val context: Context, fm: FragmentManager, bun
     init {
         fragmentBundle = bundle
     }
+
     @StringRes
     private val TAB_TITLES = intArrayOf(R.string.tab_followers, R.string.tab_following)
 

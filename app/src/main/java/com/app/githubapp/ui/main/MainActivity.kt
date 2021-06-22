@@ -37,10 +37,8 @@ class MainActivity : AppCompatActivity() {
                     .putExtra(DetailUserActivity.EXTRA_USERNAME, user.login)
                     .putExtra(DetailUserActivity.EXTRA_ID, user.id)
                     .putExtra(DetailUserActivity.EXTRA_AVATAR_URL, user.avatar_url)
-
                 startActivity(intent)
             }
-
         })
 
         binding.apply {
